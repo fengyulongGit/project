@@ -1,0 +1,157 @@
+apply plugin: 'com.android.application'
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmm")
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.youxin.purse"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../cm")
+            storePassword "000000"
+            keyAlias "cm"
+            keyPassword "000000"
+        }
+
+        release {
+            storeFile file("../cm")
+            storePassword "000000"
+            keyAlias "cm"
+            keyPassword "000000"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false // 移除无用的resource文件
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            minifyEnabled true //定义是否运行混淆
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    productFlavors {
+        mtest {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://mtest.yunqiandai.com/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://mtest.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        mtest01 {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://mtest01.yunqiandai.com/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://mtest01.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        mtest02 {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://mtest02.yunqiandai.com/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://mtest02.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        mtest03 {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://mtest03.yunqiandai.com/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://mtest03.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        msit {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://msit.yunqiandai.com/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://msit.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        pre_yunqiandai {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"http://10.253.43.108/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://10.253.43.108/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://10.0.129.115:8083\""
+        }
+        yunqiandai {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "String", "AES_KEY", "\"sd783f134u7btewe\""
+            buildConfigField "String", "SERVER_URL", "\"https://api.yunqiandai.com:8443/api\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://m.yunqiandai.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://api.yunqiandai.com\""
+        }
+    }
+
+    //批量配置
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+    applicationVariants.all { variant ->
+
+        if (!variant.buildType.minifyEnabled) {
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "V${defaultConfig.versionName}-" + variant.flavorName + ".apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
+        } else {
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "V${defaultConfig.versionName}-" + variant.flavorName + "-" + releaseTime() + ".apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':android-common')
+    compile project(':PushSDK')
+    compile 'com.android.support:multidex:1.0.1'
+
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+}

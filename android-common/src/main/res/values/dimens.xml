@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">2.0dip</dimen>
+    <dimen name="bottom_tab_font_size">10.0sp</dimen>
+
+    <dimen name="msc_container_padding_15">5.0dip</dimen>
+    <dimen name="msc_container_padding">5.0dip</dimen>
+
+    <dimen name="progress_dialog_width">100.0dip</dimen>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">6dp</dimen>
+
+    <dimen name="progress_width">20dp</dimen>
+    <dimen name="progress_margin_width">80dp</dimen>
+    <dimen name="image_margin_left">65dp</dimen>
+
+    <!-- image_behavior -->
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_final_width">3dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
+</resources>

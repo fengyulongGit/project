@@ -1,0 +1,67 @@
+package com.android.common.ui.shapimage;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import android.util.AttributeSet;
+
+import com.android.common.R;
+import com.android.common.ui.shapimage.svg.SVG;
+import com.android.common.ui.shapimage.svg.SVGParser;
+
+/**
+ * 自定义图像的背景形状
+ * 布局时在最外层加上：xmlns:app="http://schemas.android.com/apk/res-auto"
+ * 在本布局中可加上：app:svg_raw_resource="@raw/shape_star" 资源可命名：shape_star.svg
+ */
+public class SvgImageView extends BaseImageView {
+
+    private int mSvgRawResourceId;
+
+    public SvgImageView(Context context) {
+        super(context);
+    }
+
+    public SvgImageView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        sharedConstructor(context, attrs);
+    }
+
+    public SvgImageView(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+        sharedConstructor(context, attrs);
+    }
+
+    public static Bitmap getBitmap(Context context, int width, int height, int svgRawResourceId) {
+        Bitmap bitmap = Bitmap.createBitmap(width, height,
+                Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+        Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint.setColor(Color.BLACK);
+
+        if (svgRawResourceId > 0) {
+            SVG svg = SVGParser.getSVGFromInputStream(
+                    context.getResources().openRawResource(svgRawResourceId), width, height);
+            canvas.drawPicture(svg.getPicture());
+        } else {
+            canvas.drawRect(new RectF(0.0f, 0.0f, width, height), paint);
+        }
+
+        return bitmap;
+    }
+
+    private void sharedConstructor(Context context, AttributeSet attrs) {
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomShapeImageView);
+        mSvgRawResourceId = a.getResourceId(R.styleable.CustomShapeImageView_svg_raw_resource, 0);
+        a.recycle();
+    }
+
+    @Override
+    public Bitmap getBitmap() {
+        return getBitmap(mContext, getWidth(), getHeight(), mSvgRawResourceId);
+    }
+}

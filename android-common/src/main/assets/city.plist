@@ -1,0 +1,2701 @@
+[
+    {
+        "areaId": "",
+        "areaName": "北京",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "通州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "房山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昌平",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "顺义",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "怀柔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大兴",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "密云",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "平谷",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "延庆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "崇文",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "朝阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宣武",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "石景山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "丰台",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "门头沟",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海淀",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "上海",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "普陀",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "闸北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "虹口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "杨浦",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "卢湾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "徐汇",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "长宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "静安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黄浦",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "金山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "浦东新",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "嘉定",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "闵行",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宝山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南汇",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "青浦",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "松江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "奉贤",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "崇明",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "天津",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "武清",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "河东",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "和平",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西青",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "津南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大港",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东丽",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "塘沽",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "汉沽",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "河北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "红桥",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "河西",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南开",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "蓟县",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宁河",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "静海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宝坻",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "北辰",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "重庆",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "开县",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "江北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "沙坪坝",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "九龙坡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南岸",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "北碚",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "万盛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "双桥",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "渝北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巴南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黔江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "垫江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "武隆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巫山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巫溪",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "云阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "奉节",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "忠县",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "梁平",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "璧山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "荣昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大足",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "铜梁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "潼南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "綦江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "长寿",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "彭水",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "酉阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "合川",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "江津",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南川",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "永川",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "丰都",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "城口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大渡口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "渝中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "涪陵",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "万州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "石柱",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "秀山",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "浙江",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "丽水",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "舟山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宁波",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "衢州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "温州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "杭州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "台州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "嘉兴",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "绍兴",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "金华",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "湖州",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "广东",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "珠海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "惠州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "清远",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "韶关",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "江门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "揭阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "云浮",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "佛山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "广州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "深圳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "河源",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "汕头",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "汕尾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "茂名",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "肇庆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东莞",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "湛江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "潮州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阳江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "中山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "梅州",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "江苏",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "连云港",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "盐城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "无锡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宿迁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "扬州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "镇江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南京",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "徐州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "泰州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南通",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "常州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "淮安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "苏州",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "山东",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "淄博",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "烟台",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "日照",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "荷泽",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "潍坊",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "济南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "济宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "青岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "临沂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "威海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "莱芜",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "泰安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东营",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "聊城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "枣庄",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "滨州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "德州",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "福建",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "南平",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "厦门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "福州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宁德",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "龙岩",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "莆田",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "漳州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "泉州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "三明",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "安徽",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "淮南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黄山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "蚌埠",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "合肥",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宿州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "六安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "池州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "芜湖",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宣城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巢湖",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "亳州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阜阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "铜陵",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "淮北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "滁州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "马鞍山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "安庆",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "四川",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "宜宾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巴中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南充",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "成都",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "凉山彝族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "眉山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阿坝",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "乐山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "绵阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "广安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "广元",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "德阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "资阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "达州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "泸州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "自贡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "遂宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "甘孜藏族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "雅安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "内江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "攀枝花",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "湖北",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "咸宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宜昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黄冈",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "荆州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "孝感",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "荆门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "十堰",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鄂州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "天门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "潜江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "恩施",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "武汉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "仙桃",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "神农架林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "随州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黄石",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "襄樊",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "河北",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "张家口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "邯郸",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "邢台",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "衡水",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "秦皇岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "廊坊",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "保定",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "承德",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "唐山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "沧州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "石家庄",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "云南",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "德宏",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "玉溪",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "曲靖",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "保山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "怒江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "迪庆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昭通",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昆明",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "楚雄",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "文山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西双版纳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "丽江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "红河",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大理",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "临沧",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "思茅",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "黑龙江",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "鹤岗",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大兴安岭地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大庆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "七台河",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "齐齐哈尔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "牡丹江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黑河",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "双鸭山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "绥化",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "伊春",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "佳木斯",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "哈尔滨",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鸡西",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "吉林",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "松原",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "四平",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "白城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "白山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "吉林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "通化",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "长春",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "延边朝鲜族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "辽源",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "辽宁",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "铁岭",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "葫芦岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "营口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "本溪",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "辽阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "盘锦",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阜新",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "朝阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "锦州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "抚顺",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "丹东",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "沈阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鞍山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大连",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "海南",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "保亭",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "澄迈",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南沙群岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "陵水黎族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "中沙群岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "屯昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昌江黎族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "乐东黎族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "琼海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "儋州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "文昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "万宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "白沙黎族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海口",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "三亚",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "五指山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "琼中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东方",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "定安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西沙群岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "临高",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "湖南",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "郴州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "岳阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "怀化",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "娄底",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "张家界",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "益阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "湘西土家族苗族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "常德",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "湘潭",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "永州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "衡阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "株洲",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "长沙",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "邵阳",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "河南",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "南阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "洛阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "三门峡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "商丘",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "焦作",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "开封",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "驻马店",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "濮阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "许昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "安阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "信阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "漯河",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "平顶山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "郑州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "新乡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鹤壁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "周口",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "贵州",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "毕节地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黔南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "六盘水",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黔东南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "贵阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "遵义",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "铜仁地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黔西南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "安顺",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "江西",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "南昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "萍乡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "景德镇",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "吉安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "九江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "新余",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鹰潭",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "抚州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "赣州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "上饶",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宜春",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "广西",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "贺州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "梧州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "河池",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "百色",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "来宾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "贵港",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "玉林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "钦州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "北海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "柳州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "桂林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "防城港",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "崇左",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "陕西",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "咸阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "铜川",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "商洛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "榆林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "渭南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "汉中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "安康",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "延安",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宝鸡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西安",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "山西",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "临汾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "晋中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "朔州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "运城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "晋城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阳泉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "忻州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大同",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "长治",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "太原",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "吕梁",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "青海",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "黄南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海东地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "果洛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西宁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "玉树",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "海西",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "宁夏",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "石嘴山",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "固原",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "中卫",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "银川",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "吴忠",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "甘肃",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "兰州",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "金昌",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "甘南藏族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "平凉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "嘉峪关",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "天水",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "白银",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "武威",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "张掖",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "庆阳",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "定西",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "临夏回族",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "酒泉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "陇南",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "西藏",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "阿里地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "拉萨",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "山南地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "日喀则地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "那曲地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昌都地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "林芝地",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "内蒙古",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "巴彦淖尔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "锡林郭勒盟",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "兴安盟",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "乌兰察布",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "鄂尔多斯",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "乌海",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "包头",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "呼和浩特",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "呼伦贝尔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "通辽",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阿拉善盟",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "赤峰",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "新疆",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "伊犁",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "克拉玛依",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "哈密地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "石河子",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "吐鲁番地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阿拉尔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阿勒泰地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "乌鲁木齐",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "塔城地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "昌吉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "克孜勒",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "图木舒克",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "阿克苏地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "五家渠",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "巴音郭楞",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "和田地",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "博尔塔拉",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "喀什地",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "台湾",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "新竹",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "基隆",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "高雄",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "台北",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "台南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "嘉义",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "台中",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "宜兰",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "屏东",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "桃园",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "台东",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "苗栗",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "金门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "花莲",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "云林",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "连江",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "澎湖",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南投",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "彰化",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "香港",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "油尖旺",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "黄大仙",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "深水埗",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "观塘",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "九龙城",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "湾仔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "葵青",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "离岛",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "中西",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "南",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "东",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "荃湾",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "元朗",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "沙田",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "西贡",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "屯门",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大埔",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "北",
+                "counties": []
+            }
+        ]
+    },
+    {
+        "areaId": "",
+        "areaName": "澳门",
+        "cities": [
+            {
+                "areaId": "",
+                "areaName": "花地玛堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "圣安多尼堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "大堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "望德堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "风顺堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "嘉模堂",
+                "counties": []
+            },
+            {
+                "areaId": "",
+                "areaName": "圣方济各堂",
+                "counties": []
+            }
+        ]
+    }
+]

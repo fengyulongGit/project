@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.common">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <!-- 版本检测 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.android.common.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.android.common.version_check.activity.InstallAPKActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <service android:name="com.android.common.version_check.service.DownloadApkService" />
+    </application>
+
+</manifest>
