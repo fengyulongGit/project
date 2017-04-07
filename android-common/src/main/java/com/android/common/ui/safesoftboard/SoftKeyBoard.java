@@ -240,7 +240,6 @@ public class SoftKeyBoard extends PopupWindow implements
 
         @Override
         public void onGlobalLayout() {
-            // TODO Auto-generated method stub
             if (decorViewHeight == decorView.getHeight()) {
                 Log.i(TAG, "updateViewDraw-->decorViewHeight=" + decorViewHeight);
                 TranslateAnimation translate = new TranslateAnimation(0, 0, 0, softKeyHeight);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.youxin.purse">
+    package="com.creditpomelo.everest">
 
     <application
         android:name=".main.base.App"
@@ -23,6 +23,21 @@
 
         <activity
             android:name=".main.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".main.login.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".main.login.activity.RegisterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".main.login.activity.ForgetPassWordActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 

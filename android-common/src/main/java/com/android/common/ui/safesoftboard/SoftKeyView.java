@@ -181,7 +181,6 @@ public abstract class SoftKeyView extends View implements ISoftKeyBoard {
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        // TODO Auto-generated method stub
         super.onSizeChanged(w, h, oldw, oldh);
         blockWidth = measureBlockWidth(w);
         blockHeight = measureBlockHeight(h);
@@ -211,7 +210,6 @@ public abstract class SoftKeyView extends View implements ISoftKeyBoard {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        // TODO Auto-generated method stub
         super.onDraw(canvas);
         if (softKeys == null) {
             softKeys = initSoftKeys();
@@ -236,7 +234,6 @@ public abstract class SoftKeyView extends View implements ISoftKeyBoard {
 
     @Override
     public void drawSoftKey(Canvas canvas, SoftKey softkey) {
-        // TODO Auto-generated method stub
         switch (softkey.getKeyType()) {
             case TEXT:
                 drawTextSoftKey(canvas, softkey);

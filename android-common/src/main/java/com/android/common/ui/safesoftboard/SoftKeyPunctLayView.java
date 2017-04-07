@@ -17,23 +17,19 @@ public class SoftKeyPunctLayView extends SoftKeyView {
 
     public SoftKeyPunctLayView(Context context) {
         super(context);
-        // TODO Auto-generated constructor stub
     }
 
     public SoftKeyPunctLayView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        // TODO Auto-generated constructor stub
     }
 
     public SoftKeyPunctLayView(Context context, AttributeSet attrs,
                                int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        // TODO Auto-generated constructor stub
     }
 
     @Override
     public SoftKey[] initSoftKeys() {
-        // TODO Auto-generated method stub
         //提取了<@#*./>到字母布局中
         String mSignArray = "~!<>?`-=[]\\;',$%^&()_+{}|:\"";
         SoftKey[] softKeys = new SoftKey[mSignArray.length()];
@@ -47,7 +43,6 @@ public class SoftKeyPunctLayView extends SoftKeyView {
 
     @Override
     public SoftKey[] measureSoftKeysPos(SoftKey[] softKeys) {
-        // TODO Auto-generated method stub
         if (softKeys == null) {
             return null;
         }
@@ -83,13 +78,11 @@ public class SoftKeyPunctLayView extends SoftKeyView {
 
     @Override
     public int measureBlockWidth(int keyBoardwidth) {
-        // TODO Auto-generated method stub
         return keyBoardwidth / col;
     }
 
     @Override
     public int measureBlockHeight(int keyBoardHeight) {
-        // TODO Auto-generated method stub
         return keyBoardHeight / row;
     }
 

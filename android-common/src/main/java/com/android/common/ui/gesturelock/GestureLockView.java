@@ -100,7 +100,6 @@ public class GestureLockView extends View {
     }
 
     private void initData() {
-        // TODO Auto-generated method stub
         /**
          * 1 2 3 4 5 6 7 8 9
          */
@@ -198,7 +197,6 @@ public class GestureLockView extends View {
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-        // TODO Auto-generated method stub
         if (changed && isFirst) {
             viewWidth = getWidth() - radius;
             viewHeight = getHeight();
@@ -241,7 +239,6 @@ public class GestureLockView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        // TODO Auto-generated method stub
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
     }
@@ -307,7 +304,6 @@ public class GestureLockView extends View {
     }
 
     private int getLockPinData(int x, int y) {
-        // TODO Auto-generated method stub
         for (int i = 0; i < data[0].length; i++) {
             for (int j = 0; j < data[0].length; j++) {
                 PointF center = centerCxCy[i][j];

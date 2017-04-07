@@ -15,6 +15,7 @@ import com.android.common.ui.dialog.DialogUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.ButterKnife;
 import rx.Subscription;
 
 /**
@@ -40,7 +41,10 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return initView(inflater, container);
+        View view = initView(inflater, container);
+        ButterKnife.bind(this, view);
+
+        return view;
     }
 
     @Override

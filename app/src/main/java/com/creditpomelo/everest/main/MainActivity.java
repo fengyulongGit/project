@@ -1,4 +1,4 @@
-package com.youxin.purse.main;
+package com.creditpomelo.everest.main;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -6,8 +6,8 @@ import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.youxin.purse.R;
-import com.youxin.purse.main.base.AppCompatActivity;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.base.AppCompatActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void initView() {
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
     }
 
     @Override

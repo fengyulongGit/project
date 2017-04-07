@@ -2,6 +2,7 @@ package com.android.common.app;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.widget.Toast;
@@ -14,6 +15,7 @@ import com.android.common.utils.AppManager;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.ButterKnife;
 import rx.Subscription;
 
 /**
@@ -22,6 +24,7 @@ import rx.Subscription;
 public abstract class BaseAppCompatActivity extends AppCompatActivity {
     protected List<Subscription> subscriptions;
     protected Context context;
+
 
     /**
      * 加载的对话框
@@ -47,16 +50,20 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
         AppManager.getAppManager().addActivity(this);
 
         initView();
-        initTitleBar();
         initData();
+    }
+
+    @Override
+    public void setContentView(@LayoutRes int layoutResID) {
+        super.setContentView(layoutResID);
+
+        ButterKnife.bind(this);
     }
 
     /**
      * 加载布局
      */
     protected abstract void initView();
-
-    protected abstract void initTitleBar();
 
     /**
      * 加载数据

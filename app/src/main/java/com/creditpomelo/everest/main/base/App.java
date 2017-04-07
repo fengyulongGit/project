@@ -1,15 +1,20 @@
-package com.youxin.purse.main.base;
+package com.creditpomelo.everest.main.base;
 
 import android.app.Notification;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.multidex.MultiDex;
 import android.support.v4.app.NotificationCompat;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
+
 import com.android.common.app.BaseApp;
+import com.android.common.utils.AppManager;
+import com.android.common.utils.AppUtils;
 import com.android.common.utils.CommonHelper;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
@@ -25,11 +30,13 @@ import com.umeng.message.UTrack;
 import com.umeng.message.UmengMessageHandler;
 import com.umeng.message.UmengNotificationClickHandler;
 import com.umeng.message.entity.UMessage;
-import com.youxin.purse.BuildConfig;
-import com.youxin.purse.R;
-import com.youxin.purse.main.MainActivity;
-import com.youxin.purse.utils.PathUtils;
-import com.youxin.purse.utils.SharedPrefsUtils;
+import com.creditpomelo.everest.BuildConfig;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.MainActivity;
+import com.creditpomelo.everest.utils.PathUtils;
+import com.creditpomelo.everest.utils.SharedPrefsUtils;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 import java.util.Map;

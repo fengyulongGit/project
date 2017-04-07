@@ -1,17 +1,25 @@
-package com.youxin.purse.main.base;
+package com.creditpomelo.everest.main.base;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.LayoutRes;
+import android.support.annotation.Nullable;
+import android.view.View;
+import android.widget.TextView;
 
 import com.android.common.app.BaseAppCompatActivity;
 import com.android.common.receiver.SystemReceiver;
 import com.android.common.utils.AppUtils;
 import com.umeng.analytics.MobclickAgent;
-import com.youxin.purse.main.login.activity.GestureLoginActivity;
-import com.youxin.purse.utils.SharedPrefsUtils;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.login.activity.GestureLoginActivity;
+import com.creditpomelo.everest.utils.SharedPrefsUtils;
+
+import butterknife.Bind;
+import butterknife.OnClick;
 
 /**
  * 基础类
@@ -23,6 +31,18 @@ public abstract class AppCompatActivity extends BaseAppCompatActivity {
     private SystemReceiver receiver;
     private Timerthread2 thread_screen;
     private boolean isScreenOn = false;
+
+    @Bind(R.id.tv_back)
+    @Nullable
+    protected TextView tv_back;
+
+    @Bind(R.id.tv_title)
+    @Nullable
+    protected TextView tv_title;
+
+    @Bind(R.id.tv_right)
+    @Nullable
+    protected TextView tv_right;
 
     private Handler mHandler = new Handler() {
         @SuppressLint("HandlerLeak")
@@ -73,9 +93,19 @@ public abstract class AppCompatActivity extends BaseAppCompatActivity {
         });
     }
 
-    @Override
-    protected void initTitleBar() {
+    @OnClick(R.id.tv_back)
+    @Nullable
+    void back() {
+        finish();
+    }
 
+    @Override
+    public void setContentView(@LayoutRes int layoutResID) {
+        super.setContentView(layoutResID);
+
+        if (tv_back != null) {
+            tv_back.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override

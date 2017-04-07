@@ -1,4 +1,4 @@
-package com.youxin.purse.main.login.activity;
+package com.creditpomelo.everest.main.login.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,10 +16,10 @@ import com.android.common.ui.dialog.ConfirmDialog;
 import com.android.common.ui.gesturelock.GestureLockView;
 import com.android.common.utils.AppManager;
 import com.umeng.analytics.MobclickAgent;
-import com.youxin.purse.R;
-import com.youxin.purse.main.MainActivity;
-import com.youxin.purse.main.base.AppCompatActivity;
-import com.youxin.purse.utils.SharedPrefsUtils;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.MainActivity;
+import com.creditpomelo.everest.main.base.AppCompatActivity;
+import com.creditpomelo.everest.utils.SharedPrefsUtils;
 
 public class GestureLoginActivity extends AppCompatActivity {
     //
@@ -98,7 +98,7 @@ public class GestureLoginActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         SharedPrefsUtils.putIsOpen(false);
-                        SharedPrefsUtils.putIsLogIn(false);
+                        SharedPrefsUtils.putIsLogin(false);
                         CookieManager cookieManager = CookieManager.getInstance();
                         cookieManager.removeAllCookie();
 //                        Intent intent = new Intent(context, CMLoginActivity.class);

@@ -30,6 +30,7 @@
     <color name="title_bar_color">#00adef</color>
 
     <!-- 下拉筛选列表 -->
+    <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="gray">#e5e5e5</color> <!-- 灰色 -->
     <color name="drop_down_selected">#fe4c5a</color>

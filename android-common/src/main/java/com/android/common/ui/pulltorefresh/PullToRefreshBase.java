@@ -1560,8 +1560,6 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
      * Ups, and Pull Downs.
      */
     public static interface OnRefreshListener2<V extends View> {
-        // TODO These methods need renaming to START/END rather than DOWN/UP
-
         /**
          * onPullDownToRefresh will be called only when the user has Pulled from
          * the start, and released.

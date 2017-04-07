@@ -14,13 +14,14 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.common.R;
 import com.android.common.ui.picker.popup.ConfirmPopup;
 import com.android.common.ui.picker.util.CompatUtils;
 import com.android.common.ui.picker.util.ConvertUtils;
 import com.android.common.ui.picker.widget.ColorPanelView;
 
 import java.util.Locale;
+
+import com.android.common.R;
 
 /**
  * 颜色选择器。

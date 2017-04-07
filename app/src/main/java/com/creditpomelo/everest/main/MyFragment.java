@@ -1,12 +1,12 @@
-package com.youxin.purse.main;
+package com.creditpomelo.everest.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.youxin.purse.R;
-import com.youxin.purse.main.base.Fragment;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.base.Fragment;
 
 /**
  * 我-视图

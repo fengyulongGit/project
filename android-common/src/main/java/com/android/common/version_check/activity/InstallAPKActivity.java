@@ -14,11 +14,6 @@ public class InstallAPKActivity extends BaseAppCompatActivity {
     }
 
     @Override
-    protected void initTitleBar() {
-
-    }
-
-    @Override
     protected void initData() {
         final int NOTIFICATION_ID = getIntent().getIntExtra("NOTIFICATION_ID", 0);
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);

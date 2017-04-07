@@ -1,4 +1,4 @@
-package com.youxin.purse.main.base;
+package com.creditpomelo.everest.main.base;
 
 import android.view.View;
 

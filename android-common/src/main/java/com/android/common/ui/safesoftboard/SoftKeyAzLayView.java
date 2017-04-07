@@ -117,19 +117,16 @@ public class SoftKeyAzLayView extends SoftKeyView {
 
     @Override
     public int measureBlockWidth(int keyBoardwidth) {
-        // TODO Auto-generated method stub
         return keyBoardwidth / OneCol;
     }
 
     @Override
     public int measureBlockHeight(int keyBoardHeight) {
-        // TODO Auto-generated method stub
         return keyBoardHeight / row;
     }
 
     @Override
     public void drawSoftKeysPos(Canvas canvas, SoftKey[] softKeys) {
-        // TODO Auto-generated method stub
         if (softKeys == null) {
             return;
         }
@@ -179,7 +176,6 @@ public class SoftKeyAzLayView extends SoftKeyView {
 
     @Override
     public boolean handleKeyTouching(int eventX, int eventY, int action) {
-        // TODO Auto-generated method stub
         boolean needRefresh = super.handleKeyTouching(eventX, eventY, action);
         if (!needRefresh) {
             if (capsLockBtn.inRange(eventX, eventY)) {
@@ -194,7 +190,6 @@ public class SoftKeyAzLayView extends SoftKeyView {
     @SuppressLint("DefaultLocale")
     @Override
     public boolean handleTouchUp(int eventX, int eventY, int action) {
-        // TODO Auto-generated method stub
         boolean isDeal = super.handleTouchUp(eventX, eventY, action);
         if (!isDeal) {
             if (capsLockBtn.inRange(eventX, eventY)) {
@@ -229,7 +224,6 @@ public class SoftKeyAzLayView extends SoftKeyView {
 
     @Override
     public SoftKey obtainTouchSoftKey(int eventX, int eventY) {
-        // TODO Auto-generated method stub
         SoftKey softey = super.obtainTouchSoftKey(eventX, eventY);
         if (softey == null) {
             for (int index = 0; index < punctKeys.length; index++) {
@@ -263,7 +257,6 @@ public class SoftKeyAzLayView extends SoftKeyView {
 
     @Override
     public void resetSoftKeysState() {
-        // TODO Auto-generated method stub
         super.resetSoftKeysState();
         for (int index = 0; index < punctKeys.length; index++) {
             punctKeys[index].setPreessed(false);

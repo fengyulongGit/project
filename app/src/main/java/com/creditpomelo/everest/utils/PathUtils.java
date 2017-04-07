@@ -1,4 +1,4 @@
-package com.youxin.purse.utils;
+package com.creditpomelo.everest.utils;
 
 import android.os.Environment;
 

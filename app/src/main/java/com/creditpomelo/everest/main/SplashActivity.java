@@ -1,4 +1,4 @@
-package com.youxin.purse.main;
+package com.creditpomelo.everest.main;
 
 
 import android.Manifest;
@@ -13,9 +13,10 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.umeng.analytics.MobclickAgent;
-import com.youxin.purse.R;
-import com.youxin.purse.main.base.AppCompatActivity;
-import com.youxin.purse.utils.PathUtils;
+import com.creditpomelo.everest.R;
+import com.creditpomelo.everest.main.base.AppCompatActivity;
+import com.creditpomelo.everest.utils.PathUtils;
+import com.creditpomelo.everest.utils.SharedPrefsUtils;
 
 public class SplashActivity extends AppCompatActivity {
 

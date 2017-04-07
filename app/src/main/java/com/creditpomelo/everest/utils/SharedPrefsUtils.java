@@ -1,5 +1,6 @@
-package com.youxin.purse.utils;
+package com.creditpomelo.everest.utils;
 
+import com.android.common.utils.SecurityUtils;
 import com.android.common.utils.SharedPreferencesUtils;
 
 /**
@@ -7,7 +8,7 @@ import com.android.common.utils.SharedPreferencesUtils;
  */
 
 public class SharedPrefsUtils {
-    public static void putIsLogIn(boolean flag) {
+    public static void putIsLogin(boolean flag) {
         SharedPreferencesUtils.putBoolean("isLogin", flag);
     }
 

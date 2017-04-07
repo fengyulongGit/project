@@ -15,8 +15,8 @@ import android.webkit.URLUtil;
 import android.widget.RemoteViews;
 
 import com.android.common.R;
-import com.android.common.utils.FileUtils;
 import com.android.common.version_check.activity.InstallAPKActivity;
+import com.android.common.utils.FileUtils;
 import com.android.common.version_check.utils.VersionCheckUtil;
 
 import org.apache.http.util.ByteArrayBuffer;

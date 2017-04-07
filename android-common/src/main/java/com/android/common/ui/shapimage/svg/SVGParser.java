@@ -585,7 +585,7 @@ public class SVGParser {
     }
 
     private static void drawArc(Path p, float lastX, float lastY, float x, float y, float rx, float ry, float theta, int largeArc, int sweepArc) {
-        // todo - not implemented yet, may be very hard to do using Android drawing facilities.
+        //not implemented yet, may be very hard to do using Android drawing facilities.
     }
 
     private static NumberParse getNumberParseAttr(String name, Attributes attributes) {
@@ -634,7 +634,7 @@ public class SVGParser {
             try {
                 return Integer.parseInt(v.substring(1), 16);
             } catch (NumberFormatException nfe) {
-                // todo - parse word-based color here
+                //parse word-based color here
                 return null;
             }
         }
@@ -750,7 +750,7 @@ public class SVGParser {
                 try {
                     return Integer.parseInt(v.substring(1), 16);
                 } catch (NumberFormatException nfe) {
-                    // todo - parse word-based color here
+                    //parse word-based color here
                     return null;
                 }
             }
