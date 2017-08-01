@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="bantouming">#3f000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- titleBar颜色 -->
+    <color name="title_bar_color">#00adef</color>
+
+    <!-- 下拉筛选列表 -->
+    <color name="drop_down_selected">#fe4c5a</color>
+    <color name="drop_down_unselected">#535353</color>
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+    <color name="av_loading_indicator">#787878</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="login_button_background">#71c297</color>
+    <color name="shadowcolor">#6d0817</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#333333</color> <!-- 灰色 -->
+    <color name="blue">#2a9fe3</color>
+    <color name="yellow">#fed47a</color>
+    <color name="lightblue">#e6f5fc</color>
+    <color name="orange">#f96a26</color>
+    <color name="red">#FF0000</color>
+
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+</resources>

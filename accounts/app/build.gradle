@@ -1,0 +1,137 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmm")
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.creditpomelo.accounts"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0.0"
+
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../creditpomelo.jks")
+            storePassword "000000"
+            keyAlias "creditpomelo"
+            keyPassword "000000"
+            v2SigningEnabled false
+        }
+
+        release {
+            storeFile file("../creditpomelo.jks")
+            storePassword "000000"
+            keyAlias "creditpomelo"
+            keyPassword "000000"
+            v2SigningEnabled false
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false // 移除无用的resource文件
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            minifyEnabled true //定义是否运行混淆
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    productFlavors {
+        dev {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"1111111111111111\""
+            buildConfigField "String", "AES_IV", "\"0102030405060708\""
+//            buildConfigField "String", "SERVER_URL", "\"http://192.168.20.210:7201/\""
+            buildConfigField "String", "SERVER_URL", "\"http://dev.everest.credit-pomelo.com/api/\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://dev.everest.credit-pomelo.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://dev.everest.credit-pomelo.com/checkVersion/version-check/\""
+        }
+
+        sit {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "AES_KEY", "\"1111111111111111\""
+            buildConfigField "String", "AES_IV", "\"0102030405060708\""
+            buildConfigField "String", "SERVER_URL", "\"http://test.everest.credit-pomelo.com/api/\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://test.everest.credit-pomelo.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://dev.everest.credit-pomelo.com/checkVersion/version-check/\""
+        }
+
+        gw {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "String", "AES_KEY", "\"1111111111111111\""
+            buildConfigField "String", "AES_IV", "\"0102030405060708\""
+            buildConfigField "String", "SERVER_URL", "\"http://youyouqian.credit-pomelo.com/api/\""
+            buildConfigField "String", "H5_SERVER_URL", "\"http://youyouqian.credit-pomelo.com/\""
+            buildConfigField "String", "VERSION_CHECK_SERVER_URL", "\"http://youyouqian.credit-pomelo.com/checkVersion/version-check/\""
+        }
+    }
+
+    //批量配置
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+    applicationVariants.all { variant ->
+
+        if (!variant.buildType.minifyEnabled) {
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "everest.apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
+        } else {
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "V${defaultConfig.versionName}-" + variant.flavorName + "-" + releaseTime() + ".apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:25.3.1'
+
+    compile project(':android-common')
+    compile project(':PushSDK')
+    compile 'com.android.support:multidex:1.0.1'
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+}

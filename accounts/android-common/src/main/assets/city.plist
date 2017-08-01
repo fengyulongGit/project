@@ -1,0 +1,2701 @@
+[
+    {
+        "id": "",
+        "name": "北京",
+        "citys": [
+            {
+                "id": "",
+                "name": "通州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "房山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昌平",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "顺义",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "怀柔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大兴",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "密云",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "平谷",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "延庆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "崇文",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "朝阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宣武",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "石景山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "丰台",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "门头沟",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海淀",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "上海",
+        "citys": [
+            {
+                "id": "",
+                "name": "普陀",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "闸北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "虹口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "杨浦",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "卢湾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "徐汇",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "长宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "静安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黄浦",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "金山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "浦东新",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "嘉定",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "闵行",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宝山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南汇",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "青浦",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "松江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "奉贤",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "崇明",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "天津",
+        "citys": [
+            {
+                "id": "",
+                "name": "武清",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "河东",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "和平",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西青",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "津南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大港",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东丽",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "塘沽",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "汉沽",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "河北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "红桥",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "河西",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南开",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "蓟县",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宁河",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "静海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宝坻",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "北辰",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "重庆",
+        "citys": [
+            {
+                "id": "",
+                "name": "开县",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "江北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "沙坪坝",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "九龙坡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南岸",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "北碚",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "万盛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "双桥",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "渝北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巴南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黔江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "垫江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "武隆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巫山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巫溪",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "云阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "奉节",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "忠县",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "梁平",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "璧山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "荣昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大足",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "铜梁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "潼南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "綦江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "长寿",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "彭水",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "酉阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "合川",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "江津",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南川",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "永川",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "丰都",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "城口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大渡口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "渝中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "涪陵",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "万州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "石柱",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "秀山",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "浙江",
+        "citys": [
+            {
+                "id": "",
+                "name": "丽水",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "舟山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宁波",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "衢州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "温州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "杭州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "台州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "嘉兴",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "绍兴",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "金华",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "湖州",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "广东",
+        "citys": [
+            {
+                "id": "",
+                "name": "珠海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "惠州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "清远",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "韶关",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "江门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "揭阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "云浮",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "佛山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "广州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "深圳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "河源",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "汕头",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "汕尾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "茂名",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "肇庆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东莞",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "湛江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "潮州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阳江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "中山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "梅州",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "江苏",
+        "citys": [
+            {
+                "id": "",
+                "name": "连云港",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "盐城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "无锡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宿迁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "扬州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "镇江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南京",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "徐州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "泰州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南通",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "常州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "淮安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "苏州",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "山东",
+        "citys": [
+            {
+                "id": "",
+                "name": "淄博",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "烟台",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "日照",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "荷泽",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "潍坊",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "济南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "济宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "青岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "临沂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "威海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "莱芜",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "泰安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东营",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "聊城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "枣庄",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "滨州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "德州",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "福建",
+        "citys": [
+            {
+                "id": "",
+                "name": "南平",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "厦门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "福州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宁德",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "龙岩",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "莆田",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "漳州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "泉州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "三明",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "安徽",
+        "citys": [
+            {
+                "id": "",
+                "name": "淮南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黄山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "蚌埠",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "合肥",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宿州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "六安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "池州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "芜湖",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宣城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巢湖",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "亳州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阜阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "铜陵",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "淮北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "滁州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "马鞍山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "安庆",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "四川",
+        "citys": [
+            {
+                "id": "",
+                "name": "宜宾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巴中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南充",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "成都",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "凉山彝族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "眉山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阿坝",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "乐山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "绵阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "广安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "广元",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "德阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "资阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "达州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "泸州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "自贡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "遂宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "甘孜藏族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "雅安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "内江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "攀枝花",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "湖北",
+        "citys": [
+            {
+                "id": "",
+                "name": "咸宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宜昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黄冈",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "荆州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "孝感",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "荆门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "十堰",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鄂州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "天门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "潜江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "恩施",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "武汉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "仙桃",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "神农架林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "随州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黄石",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "襄樊",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "河北",
+        "citys": [
+            {
+                "id": "",
+                "name": "张家口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "邯郸",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "邢台",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "衡水",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "秦皇岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "廊坊",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "保定",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "承德",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "唐山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "沧州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "石家庄",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "云南",
+        "citys": [
+            {
+                "id": "",
+                "name": "德宏",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "玉溪",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "曲靖",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "保山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "怒江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "迪庆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昭通",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昆明",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "楚雄",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "文山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西双版纳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "丽江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "红河",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大理",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "临沧",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "思茅",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "黑龙江",
+        "citys": [
+            {
+                "id": "",
+                "name": "鹤岗",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大兴安岭地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大庆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "七台河",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "齐齐哈尔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "牡丹江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黑河",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "双鸭山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "绥化",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "伊春",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "佳木斯",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "哈尔滨",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鸡西",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "吉林",
+        "citys": [
+            {
+                "id": "",
+                "name": "松原",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "四平",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "白城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "白山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "吉林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "通化",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "长春",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "延边朝鲜族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "辽源",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "辽宁",
+        "citys": [
+            {
+                "id": "",
+                "name": "铁岭",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "葫芦岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "营口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "本溪",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "辽阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "盘锦",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阜新",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "朝阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "锦州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "抚顺",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "丹东",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "沈阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鞍山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大连",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "海南",
+        "citys": [
+            {
+                "id": "",
+                "name": "保亭",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "澄迈",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南沙群岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "陵水黎族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "中沙群岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "屯昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昌江黎族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "乐东黎族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "琼海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "儋州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "文昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "万宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "白沙黎族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海口",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "三亚",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "五指山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "琼中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东方",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "定安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西沙群岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "临高",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "湖南",
+        "citys": [
+            {
+                "id": "",
+                "name": "郴州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "岳阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "怀化",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "娄底",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "张家界",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "益阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "湘西土家族苗族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "常德",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "湘潭",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "永州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "衡阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "株洲",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "长沙",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "邵阳",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "河南",
+        "citys": [
+            {
+                "id": "",
+                "name": "南阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "洛阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "三门峡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "商丘",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "焦作",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "开封",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "驻马店",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "濮阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "许昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "安阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "信阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "漯河",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "平顶山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "郑州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "新乡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鹤壁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "周口",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "贵州",
+        "citys": [
+            {
+                "id": "",
+                "name": "毕节地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黔南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "六盘水",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黔东南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "贵阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "遵义",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "铜仁地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黔西南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "安顺",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "江西",
+        "citys": [
+            {
+                "id": "",
+                "name": "南昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "萍乡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "景德镇",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "吉安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "九江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "新余",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鹰潭",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "抚州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "赣州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "上饶",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宜春",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "广西",
+        "citys": [
+            {
+                "id": "",
+                "name": "贺州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "梧州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "河池",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "百色",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "来宾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "贵港",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "玉林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "钦州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "北海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "柳州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "桂林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "防城港",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "崇左",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "陕西",
+        "citys": [
+            {
+                "id": "",
+                "name": "咸阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "铜川",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "商洛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "榆林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "渭南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "汉中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "安康",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "延安",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宝鸡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西安",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "山西",
+        "citys": [
+            {
+                "id": "",
+                "name": "临汾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "晋中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "朔州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "运城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "晋城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阳泉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "忻州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大同",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "长治",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "太原",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "吕梁",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "青海",
+        "citys": [
+            {
+                "id": "",
+                "name": "黄南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海东地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "果洛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西宁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "玉树",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "海西",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "宁夏",
+        "citys": [
+            {
+                "id": "",
+                "name": "石嘴山",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "固原",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "中卫",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "银川",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "吴忠",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "甘肃",
+        "citys": [
+            {
+                "id": "",
+                "name": "兰州",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "金昌",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "甘南藏族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "平凉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "嘉峪关",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "天水",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "白银",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "武威",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "张掖",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "庆阳",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "定西",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "临夏回族",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "酒泉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "陇南",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "西藏",
+        "citys": [
+            {
+                "id": "",
+                "name": "阿里地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "拉萨",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "山南地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "日喀则地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "那曲地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昌都地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "林芝地",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "内蒙古",
+        "citys": [
+            {
+                "id": "",
+                "name": "巴彦淖尔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "锡林郭勒盟",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "兴安盟",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "乌兰察布",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "鄂尔多斯",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "乌海",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "包头",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "呼和浩特",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "呼伦贝尔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "通辽",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阿拉善盟",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "赤峰",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "新疆",
+        "citys": [
+            {
+                "id": "",
+                "name": "伊犁",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "克拉玛依",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "哈密地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "石河子",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "吐鲁番地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阿拉尔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阿勒泰地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "乌鲁木齐",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "塔城地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "昌吉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "克孜勒",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "图木舒克",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "阿克苏地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "五家渠",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "巴音郭楞",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "和田地",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "博尔塔拉",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "喀什地",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "台湾",
+        "citys": [
+            {
+                "id": "",
+                "name": "新竹",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "基隆",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "高雄",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "台北",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "台南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "嘉义",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "台中",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "宜兰",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "屏东",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "桃园",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "台东",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "苗栗",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "金门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "花莲",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "云林",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "连江",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "澎湖",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南投",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "彰化",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "香港",
+        "citys": [
+            {
+                "id": "",
+                "name": "油尖旺",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "黄大仙",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "深水埗",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "观塘",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "九龙城",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "湾仔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "葵青",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "离岛",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "中西",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "南",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "东",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "荃湾",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "元朗",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "沙田",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "西贡",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "屯门",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大埔",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "北",
+                "countys": []
+            }
+        ]
+    },
+    {
+        "id": "",
+        "name": "澳门",
+        "citys": [
+            {
+                "id": "",
+                "name": "花地玛堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "圣安多尼堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "大堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "望德堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "风顺堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "嘉模堂",
+                "countys": []
+            },
+            {
+                "id": "",
+                "name": "圣方济各堂",
+                "countys": []
+            }
+        ]
+    }
+]
