@@ -3,8 +3,8 @@
 
     <gradient
         android:angle="270"
-        android:endColor="@color/system_main_light"
-        android:startColor="@color/system_main" />
+        android:endColor="@color/system_main"
+        android:startColor="@color/system_main_dark" />
 
     <!--android:angle="90"表示渐变的起始位置，这个值必须为45的倍数，包括0，0表示从左往右渐变，逆时针旋转，依次是45，90，135.....，90表示从下往上渐变，270表示从上往下渐变，剩下的大家依次去推理。
 android:startColor="#9AFF9A"，表示渐变的起始颜色

@@ -28,4 +28,62 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <!-- MainActivity中底部RadioButton样式 -->
+    <style name="radioBtnStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/radiobtn_tab</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 圆角按钮 -->
+    <style name="btnCorner">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/btn_corner_blue</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="split_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/split_line</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:listSelector">@drawable/list_selector_empty</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <!--详情中卡片的样式-->
+    <style name="card_view" parent="CardView.Light">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="cardCornerRadius">6px</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
 </resources>

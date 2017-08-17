@@ -37,6 +37,11 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:name=".main.login.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".main.web.activity.WebActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
