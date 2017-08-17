@@ -1,45 +1,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="@dimen/progress_dialog_width"
-    android:layout_height="@dimen/progress_dialog_width"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:layout_gravity="center">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="103dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:alpha="0.6"
+        android:background="@drawable/bg_progress_dialog"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
 
-        <ProgressBar
-            style="?android:attr/progressBarStyle"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:visibility="gone" />
+            android:src="@drawable/ic_loading_logo" />
+
+
+        <com.android.common.ui.LoadingImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/progress_loading" />
 
         <TextView
             android:id="@+id/progress_dialog_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="加载中..."
             android:textColor="#fff"
             android:textSize="16sp"
             android:visibility="gone" />
-
-        <com.android.common.ui.dialog.LoadingView
-            android:id="@+id/progress_dialog_loadingview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="gone" />
-
-        <com.android.common.ui.avloadingindicatorview.AVLoadingIndicatorView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:indicators="BallTrianglePath"
-            app:indicators_color="@color/av_loading_indicator" />
     </LinearLayout>
 
 </RelativeLayout>

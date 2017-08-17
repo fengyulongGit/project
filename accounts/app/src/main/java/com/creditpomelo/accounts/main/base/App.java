@@ -44,7 +44,7 @@ public class App extends BaseApp {
         Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
             @Override
             public void uncaughtException(Thread thread, Throwable exp) {
-                LogUtils.e("everest-uncaught-exception", exp);
+                LogUtils.e("accounts-uncaught-exception", exp);
                 System.exit(1);
             }
         });

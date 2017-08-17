@@ -12,6 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.android.common.R;
+import com.android.common.net.base.ErrorMsg;
+import com.android.common.net.base.Subscriber;
 import com.android.common.ui.dialog.ConfirmDialog;
 import com.android.common.ui.dialog.CustomProgressDialog;
 import com.android.common.ui.dialog.DialogUtil;
@@ -19,10 +21,14 @@ import com.android.common.utils.ValidateUtil;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import rx.Observable;
 import rx.Subscription;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 /**
  * Created by fengyulong on 2016/8/4.
@@ -121,6 +127,30 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        if (isVisibleToUser) {
+            Subscription subscription = Observable.timer(200, TimeUnit.MILLISECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(new Subscriber<Long>() {
+                        @Override
+                        protected void showError(ErrorMsg errorMsg) {
+
+                        }
+
+                        @Override
+                        public void onNext(Long aLong) {
+                            userVisibleHint();
+                        }
+                    });
+            addSubscription(subscription);
+        }
+
+        super.setUserVisibleHint(isVisibleToUser);
+    }
+
+    protected abstract void userVisibleHint();
 
     protected abstract void initTitleBar();
 
@@ -172,21 +202,21 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
-    protected void showDialog(String message) {
-        showDialog(message, null);
+    protected void showDialog(String title, String message) {
+        showDialog(title, message, null);
     }
 
-    protected void showDialog(String message, String bottomBtnContent) {
-        showDialog(message, bottomBtnContent, null);
+    protected void showDialog(String title, String message, String bottomBtnContent) {
+        showDialog(title, message, bottomBtnContent, null);
     }
 
-    protected void showDialog(String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
-        DialogUtil.showDialog(context, message, bottomBtnContent, onBtnBottomClickListener);
+    protected void showDialog(String title, String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
+        DialogUtil.showDialog(context, title, message, bottomBtnContent, onBtnBottomClickListener);
     }
 
-    protected void showDialog(String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
+    protected void showDialog(String title, String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
                               String rightBtnContent, ConfirmDialog.OnBtnRightClickListener onBtnRightClickListener) {
-        DialogUtil.showDialog(context, message, leftBtnContent, onBtnLeftClickListener, rightBtnContent, onBtnRightClickListener);
+        DialogUtil.showDialog(context, title, message, leftBtnContent, onBtnLeftClickListener, rightBtnContent, onBtnRightClickListener);
     }
 
     /**

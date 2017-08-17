@@ -3,6 +3,7 @@ package com.android.common.ui.dialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
@@ -21,6 +22,7 @@ public class ConfirmDialog {
     public static final int Mode_LEFT_RIGHT = 1;//左右按钮
     public static final int Mode_BOTTOM = 2;//下方单个按钮
     private Context context;
+    private String title;
     private String content;
     private String leftBtnContent;
     private String rightBtnContent;
@@ -49,6 +51,10 @@ public class ConfirmDialog {
 //        window.setWindowAnimations(R.style.mystyle);  //添加动画
 //        dialog.show();
         window.setContentView(R.layout.dialog_confirm);
+
+        TextView tvTitle = (TextView) window.findViewById(R.id.dialog_confirm_title);
+        tvTitle.setText(title);
+        tvTitle.setVisibility(TextUtils.isEmpty(title) ? View.GONE : View.VISIBLE);
 
         TextView tvContent = (TextView) window.findViewById(R.id.dialog_confirm_content);
         tvContent.setText(content);
@@ -131,6 +137,10 @@ public class ConfirmDialog {
 
     public void setMode(int mode) {
         this.mode = mode;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public void setContent(String content) {

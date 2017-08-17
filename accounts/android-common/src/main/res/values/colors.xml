@@ -49,6 +49,7 @@
     <color name="lightblue">#e6f5fc</color>
     <color name="orange">#f96a26</color>
     <color name="red">#FF0000</color>
+    <color name="green">#00cc66</color>
 
     <color name="triangle">#aa72d572</color>
     <color name="circle">#aa738ffe</color>

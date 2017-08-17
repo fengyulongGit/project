@@ -108,7 +108,7 @@ android {
             variant.outputs.each { output ->
                 def outputFile = output.outputFile
                 if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                    def fileName = "everest.apk"
+                    def fileName = "accounts.apk"
                     output.outputFile = new File(outputFile.parent, fileName)
                 }
             }
@@ -116,7 +116,7 @@ android {
             variant.outputs.each { output ->
                 def outputFile = output.outputFile
                 if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                    def fileName = "V${defaultConfig.versionName}-" + variant.flavorName + "-" + releaseTime() + ".apk"
+                    def fileName = "V${defaultConfig.versionName}-accounts-" + variant.flavorName + "-" + releaseTime() + ".apk"
                     output.outputFile = new File(outputFile.parent, fileName)
                 }
             }

@@ -20,22 +20,24 @@ public class DialogUtil {
         return new CustomProgressDialog(context, content);
     }
 
-    public static void showDialog(Context context, String message, String bottomBtnContent) {
-        showDialog(context, message, bottomBtnContent, null);
+    public static void showDialog(Context context, String title, String message, String bottomBtnContent) {
+        showDialog(context, title, message, bottomBtnContent, null);
     }
 
-    public static void showDialog(Context context, String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
+    public static void showDialog(Context context, String title, String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
         ConfirmDialog confirmDialog = new ConfirmDialog(context);
         confirmDialog.setMode(ConfirmDialog.Mode_BOTTOM);
+        confirmDialog.setTitle(title);
         confirmDialog.setContent(message);
         confirmDialog.setBottomBtnContent(bottomBtnContent);
         confirmDialog.setOnBtnBottomClickListener(onBtnBottomClickListener);
         confirmDialog.create().show();
     }
 
-    public static void showDialog(Context context, String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
+    public static void showDialog(Context context, String title, String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
                                   String rightBtnContent, ConfirmDialog.OnBtnRightClickListener onBtnRightClickListener) {
         ConfirmDialog confirmDialog = new ConfirmDialog(context);
+        confirmDialog.setTitle(title);
         confirmDialog.setContent(message);
         confirmDialog.setLeftBtnContent(leftBtnContent);
         confirmDialog.setOnBtnLeftClickListener(onBtnLeftClickListener);

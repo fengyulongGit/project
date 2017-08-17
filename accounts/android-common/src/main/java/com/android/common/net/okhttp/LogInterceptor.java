@@ -29,7 +29,9 @@ public class LogInterceptor implements Interceptor {
                 for (int i = 0; i < body.size(); i++) {
                     sb.append(body.encodedName(i) + "=" + body.encodedValue(i) + ",");
                 }
-                sb.delete(sb.length() - 1, sb.length());
+                if (sb.length() > 0) {
+                    sb.delete(sb.length() - 1, sb.length());
+                }
                 LogUtils.d("| RequestParam:{" + sb.toString() + "}");
             }
         }

@@ -79,21 +79,21 @@ public abstract class BaseAdapter extends android.widget.BaseAdapter {
         }
     }
 
-    protected void showDialog(String message) {
-        showDialog(message, null);
+    protected void showDialog(String title, String message) {
+        showDialog(title, message, null);
     }
 
-    protected void showDialog(String message, String bottomBtnContent) {
-        showDialog(message, bottomBtnContent, null);
+    protected void showDialog(String title, String message, String bottomBtnContent) {
+        showDialog(title, message, bottomBtnContent, null);
     }
 
-    protected void showDialog(String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
-        DialogUtil.showDialog(context, message, bottomBtnContent, onBtnBottomClickListener);
+    protected void showDialog(String title, String message, String bottomBtnContent, ConfirmDialog.OnBtnBottomClickListener onBtnBottomClickListener) {
+        DialogUtil.showDialog(context, title, message, bottomBtnContent, onBtnBottomClickListener);
     }
 
-    protected void showDialog(String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
+    protected void showDialog(String title, String message, String leftBtnContent, ConfirmDialog.OnBtnLeftClickListener onBtnLeftClickListener,
                               String rightBtnContent, ConfirmDialog.OnBtnRightClickListener onBtnRightClickListener) {
-        DialogUtil.showDialog(context, message, leftBtnContent, onBtnLeftClickListener, rightBtnContent, onBtnRightClickListener);
+        DialogUtil.showDialog(context, title, message, leftBtnContent, onBtnLeftClickListener, rightBtnContent, onBtnRightClickListener);
     }
 
     /**

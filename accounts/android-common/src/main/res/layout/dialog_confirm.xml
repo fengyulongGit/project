@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="258dp"
-    android:layout_height="144dp"
+    android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:background="@drawable/dialog_confirm_bg"
     android:orientation="vertical">
@@ -11,16 +11,34 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/dialog_confirm_content"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="提示内容"
-            android:textColor="#333333"
-            android:textSize="12sp" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialog_confirm_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="提示"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dialog_confirm_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="提示内容"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/dialog_confirm_btn_close"
@@ -35,13 +53,13 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#dadade" />
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
 
     <LinearLayout
         android:id="@+id/ll_left_right_btn_layout"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="49dp"
         android:visibility="gone">
 
         <Button
@@ -51,13 +69,13 @@
             android:layout_weight="1"
             android:background="@drawable/dialog_confirm_btn_left_bg"
             android:text="取消"
-            android:textColor="#2a9fe3"
-            android:textSize="12sp" />
+            android:textColor="#5b89ff"
+            android:textSize="17sp" />
 
         <View
-            android:layout_width="1dp"
+            android:layout_width="1px"
             android:layout_height="match_parent"
-            android:background="#dadade" />
+            android:background="#e3e3e3" />
 
         <Button
             android:id="@+id/dialog_confirm_btn_right"
@@ -66,14 +84,14 @@
             android:layout_weight="1"
             android:background="@drawable/dialog_confirm_btn_right_bg"
             android:text="确定"
-            android:textColor="#2a9fe3"
-            android:textSize="12sp" />
+            android:textColor="#5b89ff"
+            android:textSize="17sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ll_bottom_btn_layout"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="49dp"
         android:visibility="gone">
 
         <Button
@@ -83,7 +101,7 @@
             android:layout_weight="1"
             android:background="@drawable/dialog_confirm_btn_bottom_bg"
             android:text="确定"
-            android:textColor="#2a9fe3"
-            android:textSize="12sp" />
+            android:textColor="#5b89ff"
+            android:textSize="17sp" />
     </LinearLayout>
 </LinearLayout>

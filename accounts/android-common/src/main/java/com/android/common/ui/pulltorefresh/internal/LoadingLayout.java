@@ -67,14 +67,12 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
         mMode = mode;
         mScrollDirection = scrollDirection;
 
-        int mIndicatorId = attrs.getInt(R.styleable.PullToRefresh_ptr_indicators, AVLoadingIndicatorView.BallTrianglePath);//默认效果AVLoadingIndicatorView.BallTrianglePath
+        int mIndicatorId = attrs.getInt(R.styleable.PullToRefresh_ptr_indicators, -2);//默认效果AVLoadingIndicatorView.BallTrianglePath
         int mIndicatorColor = attrs.getColor(R.styleable.PullToRefresh_ptr_indicators_color, getResources().getColor(R.color.av_loading_indicator));
 
         switch (scrollDirection) {
             case HORIZONTAL:
-                if (mIndicatorId == -3) {
-                    LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_horizontal_custom_1, this);
-                } else if (mIndicatorId == -1) {
+                if (mIndicatorId == -1) {
                     LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_horizontal, this);
                 } else {
                     LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_horizontal_custom, this);
@@ -82,16 +80,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
                 break;
             case VERTICAL:
             default:
-                if (mIndicatorId == -3) {
-                    LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_vertical_custom_1, this);
-                } else if (mIndicatorId == -4) {
-                    if (PullToRefreshBase.Mode.PULL_FROM_START == mode) {
-                        LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_vertical_custom_2, this);
-                    } else if (PullToRefreshBase.Mode.PULL_FROM_END == mode) {
-                        mIndicatorId = AVLoadingIndicatorView.BallTrianglePath;
-                        LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_vertical_custom, this);
-                    }
-                } else if (mIndicatorId == -1) {
+                if (mIndicatorId == -1) {
                     LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_vertical, this);
                 } else {
                     LayoutInflater.from(context).inflate(R.layout.pull_to_refresh_header_vertical_custom, this);
@@ -114,7 +103,15 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
             } else if (mIndicatorId == -2) {
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(DisplayUtils.dip2px(100), DisplayUtils.dip2px(100));
                 GifImageView gifImageView = new GifImageView(context);
-                gifImageView.setMovieAssets("img/pull_to_refresh_header.gif");
+//                gifImageView.setMovieAssets("img/pull_to_refresh_header.gif");
+                int gif = attrs.getInt(R.styleable.PullToRefresh_ptr_indicators_gif, 1);
+                String gifPath = "";
+                if (gif == 2) {
+                    gifPath = "img/pull_to_refresh_header_white.gif";
+                } else {
+                    gifPath = "img/pull_to_refresh_header_black.gif";
+                }
+                gifImageView.setMovieAssets(gifPath);
                 indicatorLayout.addView(gifImageView, layoutParams);
             }
         }

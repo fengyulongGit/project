@@ -36,7 +36,7 @@ public class Response<T> {
     }
 
     public interface ErrorCode {
-        int SUCCESS = 0;
+        int SUCCESS = 200;
         int TOKEN_NOT_EXIST = 111;
         int TOKEN_OTHER_DEVICE_LOGIN = 6007;
         int TOKEN_INVALID = Integer.MIN_VALUE;

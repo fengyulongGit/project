@@ -41,7 +41,8 @@ public class LogUtils {
         callerClazzName = callerClazzName.substring(callerClazzName.lastIndexOf(".") + 1);
         tag = String.format(tag, callerClazzName, caller.getMethodName(), caller.getLineNumber());
         tag = TextUtils.isEmpty(customTagPrefix) ? tag : customTagPrefix + ":" + tag;
-        return tag + "-----";
+//        return tag + "-----";
+        return "accounts";
     }
 
     public static void d(String content) {

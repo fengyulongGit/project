@@ -18,11 +18,24 @@ public class DateUtils {
         String strData = "";
         try {
             long ts = Long.valueOf((String) object);
-            SimpleDateFormat format = new SimpleDateFormat(pattern);
-            strData = format.format(ts);
+            strData = format(ts, pattern);
         } catch (Exception e) {
             e.printStackTrace();
             return format(parse(object, "yyyy-MM-dd HH:mm:ss"), pattern);
+        }
+        return strData;
+    }
+
+    /**
+     * 格式化时间格式
+     */
+    public static String format(long object, String pattern) {
+        String strData = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(pattern);
+            strData = format.format(object);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         return strData;
     }

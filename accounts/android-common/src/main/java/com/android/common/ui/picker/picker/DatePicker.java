@@ -22,6 +22,7 @@ import java.util.Comparator;
  */
 public class DatePicker extends WheelPicker {
     private ArrayList<String> years = new ArrayList<String>();
+    private int monthMax = 12;
     private ArrayList<String> months = new ArrayList<String>();
     private ArrayList<String> days = new ArrayList<String>();
     private OnDatePickListener onDatePickListener;
@@ -53,7 +54,13 @@ public class DatePicker extends WheelPicker {
         for (int i = 2000; i <= 2050; i++) {
             years.add(String.valueOf(i));
         }
-        for (int i = 1; i <= 12; i++) {
+
+        if (Mode.QUARTER.equals(mode)) {
+            monthMax = 4;
+        } else if (Mode.YEAR_HALF.equals(mode)) {
+            monthMax = 2;
+        }
+        for (int i = 1; i <= monthMax; i++) {
             months.add(DateUtils.fillZero(i));
         }
         for (int i = 1; i <= 31; i++) {
@@ -216,12 +223,17 @@ public class DatePicker extends WheelPicker {
             dayTextView.setText(dayLabel);
         }
         layout.addView(dayTextView);
-        if (mode.equals(Mode.YEAR_MONTH)) {
+        if (mode.equals(Mode.YEAR_MONTH) || mode.equals(Mode.QUARTER) || mode.equals(Mode.YEAR_HALF)) {
             dayView.setVisibility(View.GONE);
             dayTextView.setVisibility(View.GONE);
         } else if (mode.equals(Mode.MONTH_DAY)) {
             yearView.setVisibility(View.GONE);
             yearTextView.setVisibility(View.GONE);
+        } else if (mode.equals(Mode.YEAR)) {
+            monthView.setVisibility(View.GONE);
+            monthTextView.setVisibility(View.GONE);
+            dayView.setVisibility(View.GONE);
+            dayTextView.setVisibility(View.GONE);
         }
         if (!mode.equals(Mode.MONTH_DAY)) {
             if (!TextUtils.isEmpty(yearLabel)) {
@@ -243,7 +255,7 @@ public class DatePicker extends WheelPicker {
                             months.add(DateUtils.fillZero(i));
                         }
                     } else {
-                        for (int i = 1; i <= 12; i++) {
+                        for (int i = 1; i <= monthMax; i++) {
                             months.add(DateUtils.fillZero(i));
                         }
                     }
@@ -287,7 +299,7 @@ public class DatePicker extends WheelPicker {
                 months.add(DateUtils.fillZero(i));
             }
         } else {
-            for (int i = 1; i <= 12; i++) {
+            for (int i = 1; i <= monthMax; i++) {
                 months.add(DateUtils.fillZero(i));
             }
         }
@@ -304,7 +316,7 @@ public class DatePicker extends WheelPicker {
             @Override
             public void onSelected(boolean isUserScroll, int selectedIndex, String item) {
                 selectedMonthIndex = selectedIndex;
-                if (!mode.equals(Mode.YEAR_MONTH)) {
+                if (!mode.equals(Mode.YEAR_MONTH) && !mode.equals(Mode.QUARTER) && !mode.equals(Mode.YEAR_HALF)) {
                     //年月日或年月模式下，需要根据年份及月份动态计算天数
                     //需要根据年份及月份动态计算天数
                     days.clear();
@@ -326,7 +338,7 @@ public class DatePicker extends WheelPicker {
                 }
             }
         });
-        if (!mode.equals(Mode.YEAR_MONTH)) {
+        if (!mode.equals(Mode.YEAR_MONTH) && !mode.equals(Mode.QUARTER) && !mode.equals(Mode.YEAR_HALF)) {
             if (!TextUtils.isEmpty(dayLabel)) {
                 dayTextView.setText(dayLabel);
             }
@@ -365,6 +377,8 @@ public class DatePicker extends WheelPicker {
                     String day = days.get(selectedDayIndex);
                     switch (mode) {
                         case YEAR_MONTH:
+                        case QUARTER:
+                        case YEAR_HALF:
                             return ((OnPreYearMonthPickListener) onPreDatePickListener).onPreDatePicked(year, month);
                         case MONTH_DAY:
                             return ((OnPreMonthDayPickListener) onPreDatePickListener).onPreDatePicked(month, day);
@@ -384,10 +398,15 @@ public class DatePicker extends WheelPicker {
                     String day = days.get(selectedDayIndex);
                     switch (mode) {
                         case YEAR_MONTH:
+                        case QUARTER:
+                        case YEAR_HALF:
                             ((OnYearMonthPickListener) onDatePickListener).onDatePicked(year, month);
                             break;
                         case MONTH_DAY:
                             ((OnMonthDayPickListener) onDatePickListener).onDatePicked(month, day);
+                            break;
+                        case YEAR:
+                            ((OnYearPickListener) onDatePickListener).onDatePicked(year);
                             break;
                         default:
                             ((OnYearMonthDayPickListener) onDatePickListener).onDatePicked(year, month, day);
@@ -413,7 +432,19 @@ public class DatePicker extends WheelPicker {
         /**
          * 月日
          */
-        MONTH_DAY
+        MONTH_DAY,
+        /**
+         * 年
+         */
+        YEAR,
+        /**
+         * 季度
+         */
+        QUARTER,
+        /**
+         * 半年
+         */
+        YEAR_HALF
     }
 
     /**
@@ -451,6 +482,20 @@ public class DatePicker extends WheelPicker {
          * @param month the month
          */
         void onDatePicked(String year, String month);
+
+    }
+
+    /**
+     * The interface On year month pick listener.
+     */
+    public interface OnYearPickListener extends OnDatePickListener {
+
+        /**
+         * On date picked.
+         *
+         * @param year the year
+         */
+        void onDatePicked(String year);
 
     }
 

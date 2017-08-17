@@ -31,7 +31,8 @@
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearance"
                 android:textColor="#999999"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:visibility="gone" />
 
             <TextView
                 android:id="@+id/pull_to_refresh_sub_text"

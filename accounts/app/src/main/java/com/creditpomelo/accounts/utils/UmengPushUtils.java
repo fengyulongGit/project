@@ -98,7 +98,7 @@ public class UmengPushUtils {
      * @return
      */
     public static void addAlias(Context context, String alias) {
-        addAlias(context, alias, "everest", new UTrack.ICallBack() {
+        addAlias(context, alias, "accounts", new UTrack.ICallBack() {
             @Override
             public void onMessage(boolean b, String s) {
                 LogUtils.i("addAlias result " + b + ", message " + s);
@@ -134,7 +134,7 @@ public class UmengPushUtils {
      * 删除用户id
      */
     public static void removeAlias(Context context, String alias) {
-        removeAlias(context, alias, "everest", new UTrack.ICallBack() {
+        removeAlias(context, alias, "accounts", new UTrack.ICallBack() {
             @Override
             public void onMessage(boolean b, String s) {
                 LogUtils.i("removeAlias result " + b + ", message " + s);
